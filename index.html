@@ -1,63 +1,287 @@
-<!DOCTYPE HTML>
-<html lang="tr">
-<head>
-	<title>Minikeller Anaokulu</title>
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="shortcut icon" href="images/favicon.png" />
-	<meta charset="UTF-8">
-	
-	
-	<!-- Font -->
-	
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700%7CPoppins:400,500" rel="stylesheet">
-	
-	
-	<link href="css/ionicons.css" rel="stylesheet">
-	
-	
-	<link rel="stylesheet" href="css/jquery.classycountdown.css" />
-		
-	<link href="css/styles.css" rel="stylesheet">
-	
-	<link href="css/responsive.css" rel="stylesheet">
-	
-</head>
-<body>
-	
-	<div class="main-area-wrapper" style="background-image:url(images/childreen.jpg);">
-		<div class="main-area center-text" >
-			
-			<div class="display-table">
-				<div class="display-table-cell">
-					
-					<h1 class="title"><b>Yakında Buradayız</b></h1>
-					<p class="desc font-white">Web sitemize sizlere daha iyi hizmet verebilmek için bakım çalışması yapılmaktadır. Aşağıdaki süre sonrasında yayına alınacaktır. Anlayışınız için teşekkürler.</p>
-					
-					<div id="normal-countdown" data-date="2018/09/22"></div>
-					
-					<a class="notify-btn" href="mailto:info@minikelleranaokulu.org"><b>Email Gönder</b></a>
-					
-					<ul class="social-btn">
-						<li class="list-heading">Bizi sosyal medya hesaplarımızdan takip edebilirsiniz</li>
-						<li><a href="https://www.facebook.com/minikeller2016/"><i class="ion-social-facebook"></i></a></li>
-						<li><a href="https://twitter.com/minikeller_"><i class="ion-social-twitter"></i></a></li>
-						<li><a href="https://www.instagram.com/minikeller_anaokulu_bakirkoy/"><i class="ion-social-instagram-outline"></i></a></li>
-					</ul>
-					
-				</div><!-- display-table -->
-			</div><!-- display-table-cell -->
-		</div><!-- main-area -->
-	</div><!-- main-area-wrapper -->
-	
-	
-	<!-- SCIPTS -->
-	
-	<script src="js/jquery-3.1.1.min.js"></script>
-	
-	<script src="js/jquery.countdown.min.js"></script>
-	
-	<script src="js/scripts.js"></script>
-	
-</body>
-</html>
+---
+layout: default
+title: Minikeller Anaokulu
+---
+
+
+<div class='slider_vs_menu'>
+    {% include menu.html %}
+    {% include slider.html %}
+    </div>
+    <!-- / slider and menu container -->
+    <div class='benefits_area wave'>
+        <!-- canvas -->
+        <div class='cloud_wrapper'>
+            <canvas class='cloud' data-bg-color='#f9e8b2' data-line-color='#ffffff' data-pattern-src='{{ site.url }}/assets/img/dots-pattern.png'></canvas>
+        </div>
+        <!-- / canvas -->
+        <div class='container'>
+            <!-- benefits container -->
+            <div class='benefits_container'>
+                <!-- benefits item -->
+                <div class="cws-widget">
+                    <div class="widget-title">
+                        <div class='widget_title_box'>
+                            <div class='widget_title_icon_section'><img src='{{ site.url }}/assets/img/games-304vqrsdsyjt42zxc5ydxm.png' data-at2x='{{ site.url }}/assets/img/games-304vqrsdsyjt42zxc5ydxm@2x.png' alt /></div>
+                            <div class='widget_title_text_section'>Okulumuz</div>
+                        </div>
+                    </div>
+                    <div class='cws_textwidget_content'>
+                        <div class='text'>
+                        <br />  
+                            Okulumuz müstakil ve korunaklı yapısı ile çocuklarımıza güvenli ve doğal bir ortam sunulmaktadır</div>
+                       <div class='link'><a href='{{ site.url }}/education.html' class='cws_button small'>Eğitimlerimiz</a></div>
+                    </div>
+                </div>
+                <!-- / benefits item -->
+                <!-- benefits item -->
+                <div class="cws-widget">
+                    <div class="widget-title">
+                        <div class='widget_title_box'>
+                            <div class='widget_title_icon_section'><img src='{{ site.url }}/assets/img/activities-304vqs1fhfe8b8ybbneakq.png' data-at2x='{{ site.url }}/assets/img/activities-304vqs1fhfe8b8ybbneakq@2x.png' alt /></div>
+                            <div class='widget_title_text_section'>Eğitim</div>
+                        </div>
+                    </div>
+                    <div class='cws_textwidget_content'>
+                        <div class='text'>
+                            <br />
+                            2-6 yaş grubu çocuklarımıza hizmet veren okulumuz <b>Atatürk İlke ve İnkılaplarına</b> bağlı bilim ve sanat temeli etkinliklerden oluşan bir eğitim programı benimsemiştir.              
+                        </div>
+                      <div class='link'><a href='{{ site.url }}/education.html' class='cws_button small'>Devamı</a></div>
+                    </div>
+                </div>
+                <!-- / benefits item -->
+                <!-- benefits item -->
+                <div class="cws-widget">
+                    <div class="widget-title">
+                        <div class='widget_title_box'>
+                            <div class='widget_title_icon_section'><img src='{{ site.url }}/assets/img/education-304vqs5ybpxf691gt0t7nu.png' data-at2x='{{ site.url }}/assets/img/education-304vqs5ybpxf691gt0t7nu@2x.png' alt /></div>
+                            <div class='widget_title_text_section'>Sınıflarımız</div>
+                        </div>
+                    </div>
+                    <div class='cws_textwidget_content'>
+                        <div class='text'>
+                            <br />
+                            Bu deneyimli uzman eğitimcilerin liderlik yaptığı sınıflarda çocuk sayısı; 2 yaş için 8 diğer yaş grupları için 11 ile sınırlandırılmıştır.
+                        </div>
+                    </div>
+                </div>
+                <!-- / benefits item -->
+            </div>
+            <!-- / benefits container -->
+        </div>
+    </div>
+    <!-- canvas -->
+    <div class="cloud_wrapper">
+        <canvas class="white_cloud"></canvas>
+    </div>
+    <!-- / canvas -->
+    <!-- main container -->
+    
+    <div id="main" class="site-main">
+        <div class="page_content">
+            <!-- pattern conatainer / -->
+            <div class='left-pattern pattern pattern-2'></div>
+            <main>
+                <!-- section -->
+                <div class='grid_row clearfix' style='padding-top: 30px;'>
+                    <div class='grid_col grid_col_12'>
+                        <!-- about us -->
+                        <div class='ce clearfix'>
+                            <div>
+                                <h3 class="ce_title">Biz <span>Kimiz</span></h3>
+                                <p>Yarınlarımızı emanet ediceğimiz çocuklarımızın eğitimlerini mutlu sürdürmeleri için "SEVGİMİZİ,BİLGİMİZİ ve HOŞGÖRÜMÜZÜ" Onlarla paylaşıyoruz. Çocularımızı okul ortamında düzgün davranış modelerini öğrenmelerini, kendine güven duymalarını,motor hareketlerini geliştirmelerini, yaşıtlarıyla ve öğretmenleriyle uygun iletişim kurmayı öğrenmelerini, görsel-işitsel becerilerini artırmalarını ve sosyaleşmelerini sağlamaya amaçlıyoruz.</p>
+                                <a href='{{ site.url }}/about.html' class='cws_button small'>Devamı</a>
+                            </div>
+                        </div>
+                        <!-- / about us -->
+                    </div>
+                    
+                </div>
+                <!-- / section -->
+                <!-- divider -->
+                <div class='grid_row clearfix'>
+                    <div class='grid_col grid_col_12'>
+                        <div class='ce clearfix'>
+                            <div>
+                                <hr>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- / divider -->
+                <!-- heading section -->
+                <div class='grid_row clearfix'>
+                    <div class='grid_col grid_col_12'>
+                        <div class='ce clearfix'>
+                            <div>
+                                <h3 class="ce_title" style="text-align: center;">Okulumuz aşağıdaki <span>ilkeler doğrultusunda hizmet vermektedir</span></h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- / heading section -->
+                <!-- section -->
+                <div class='grid_row clearfix'>
+                    <div class='grid_col grid_col_4'>
+                        <div class='ce clearfix'>
+                            <div>
+                                <div class='cws_fa_tbl'>
+                                    <div class='cws_fa_tbl_row'>
+                                        <div class='cws_fa_tbl_cell size_1x'>
+                                            <div class='cws_fa_wrapper round'><i class='cws_fa fa fa-1x fa-users'></i><span class='ring'></span></div>
+                                        </div>
+                                        <div class='cws_fa_tbl_cell'>
+                                            <h2>Psikolojik Düğümler</h2>
+                                        </div>
+                                    </div>
+                                    <div class='cws_fa_tbl_row'>
+                                        <div class='cws_fa_tbl_cell'></div>
+                                        <div class='cws_fa_tbl_cell'>
+                                            <p>
+                                                Bireylerde görünen bir çok ruhsal sorunun temelinde çocukluk dönemindeki olumsuz yaşantı ve deneyimler olduğu görülmektedir.
+                                                Minikeller Anaokulu olarak varsa oluşan psikolojik düğümleri çözmeyi psikolojik düğümlerin oluşmasını önlemeyi temel bir ilke olarak benimsiyoruz.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='ce clearfix'>
+                            <div>
+                                <div class='cws_fa_tbl'>
+                                    <div class='cws_fa_tbl_row'>
+                                        <div class='cws_fa_tbl_cell size_1x'>
+                                            <div class='cws_fa_wrapper round'><i class='cws_fa fa fa-1x fa-book'></i><span class='ring'></span></div>
+                                        </div>
+                                        <div class='cws_fa_tbl_cell'>
+                                            <h2>Uyumlaşmış Çocuklar</h2>
+                                        </div>
+                                    </div>
+                                    <div class='cws_fa_tbl_row'>
+                                        <div class='cws_fa_tbl_cell'></div>
+                                        <div class='cws_fa_tbl_cell'>
+                                            <p>Uyumlu olmak tek taraflı uyumak anlamına gelirken,uyumlaşma ise tıpkı selamlaşma gibi karşılıklı ve eğlem gerektirir. Uyumlaşmada taraflar birbirlerini önemser ve uzlaşırlar. 
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class='grid_col grid_col_4'>
+                        <div class='ce clearfix'>
+                            <div>
+                                <div class='cws_fa_tbl'>
+                                    <div class='cws_fa_tbl_row'>
+                                        <div class='cws_fa_tbl_cell size_1x'>
+                                            <div class='cws_fa_wrapper round'><i class='cws_fa fa fa-1x fa-cubes'></i><span class='ring'></span></div>
+                                        </div>
+                                        <div class='cws_fa_tbl_cell'>
+                                            <h2>Branş Derslerimiz</h2>
+                                        </div>
+                                    </div>
+                                    <div class='cws_fa_tbl_row'>
+                                        <div class='cws_fa_tbl_cell'></div>
+                                        <div class='cws_fa_tbl_cell'>
+                                            <p>Uzman öğretmenlerimiz tarafından dans,drama ve müzik derslerimiz tam zamanlı olarak uygulanmaktadır.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='ce clearfix'>
+                            <div>
+                                <div class='cws_fa_tbl'>
+                                    <div class='cws_fa_tbl_row'>
+                                        <div class='cws_fa_tbl_cell size_1x'>
+                                            <div class='cws_fa_wrapper round'><i class='cws_fa fa fa-1x fa fa-cutlery'></i><span class='ring'></span></div>
+                                        </div>
+                                        <div class='cws_fa_tbl_cell'>
+                                            <h2>Çocuksu Değerler</h2>
+                                        </div>
+                                    </div>
+                                    <div class='cws_fa_tbl_row'>
+                                        <div class='cws_fa_tbl_cell'></div>
+                                        <div class='cws_fa_tbl_cell'>
+                                            <p>Biz ailelerimize  ve toplumada çocuksu değerleri  ve insani değerleri sunmak istiyoruz. Çocuklarda doğal değerler vardır. Dürüstlük,gerçekçilik,içtenlik,doğalık nedenlerini sorgulama,araştırma vb. Bu değerlerin korunmasına ve yetişkinlik dönemlerinde de canlı kalmasını önemsiyoruz. 
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class='grid_col grid_col_4'>
+                        <div class='ce clearfix'>
+                            <div>
+                                <div class='cws_fa_tbl'>
+                                    <div class='cws_fa_tbl_row'>
+                                        <div class='cws_fa_tbl_cell size_1x'>
+                                            <div class='cws_fa_wrapper round'><i class='cws_fa fa fa-1x fa-heart'></i><span class='ring'></span></div>
+                                        </div>
+                                        <div class='cws_fa_tbl_cell'>
+                                            <h2>Aile Akademisi</h2>
+                                        </div>
+                                    </div>
+                                    <div class='cws_fa_tbl_row'>
+                                        <div class='cws_fa_tbl_cell'></div>
+                                        <div class='cws_fa_tbl_cell'>
+                                            <p>Psikoloğumuz başta olmak üzere uzmanlarımız yıl boyunca çocuk psikolojisi aile içi ve eşler arası iletişimi,çocuk yetiştirme tutumları,çocukla uzlaşma,yaratıcı çocuk yetiştirme,kendine güvenen çocuk yetiştirme , çocuklarda kişisel vizyon oluşturma gibi çeşitli konularda deneyimlerini siz değerli ailelerimizle paylaşarak bir aile akademisi hizmeti veriyoruz.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class='ce clearfix'>
+                            <div>
+                                <div class='cws_fa_tbl'>
+                                    <div class='cws_fa_tbl_row'>
+                                        <div class='cws_fa_tbl_cell size_1x'>
+                                            <div class='cws_fa_wrapper round'><i class='cws_fa fa fa-1x fa-university'></i><span class='ring'></span></div>
+                                        </div>
+                                        <div class='cws_fa_tbl_cell'>
+                                            <h2>Yabancı Dil Eğitimi</h2>
+                                        </div>
+                                    </div>
+                                    <div class='cws_fa_tbl_row'>
+                                        <div class='cws_fa_tbl_cell'></div>
+                                        <div class='cws_fa_tbl_cell'>
+                                            <p>Okulumuzda englısh kıds academy desteğiyle ile tam zamanlı İngilizce eğitimi uygulanmaktır.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- / section -->
+                <!-- divider -->
+                <div class='grid_row clearfix' style='padding-bottom: 50px;'>
+                    <div class='grid_col grid_col_12'>
+                        <div class='ce clearfix'>
+                            <div>
+                                <hr>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+               
+            </main>
+            <!-- pettaren container / -->
+            <div class='right-pattern pattern pattern-2'></div>
+            <!-- footer image container / -->
+            <div class="footer_image"></div>
+        </div>
+        <!-- svg filter -->
+        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="0" style='display:none;'>
+            <defs>
+                <filter id="goo">
+                    <feGaussianBlur in="SourceGraphic" stdDeviation="6" result="blur" />
+                    <feColorMatrix in="blur" type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="goo" />
+                    <feComposite in="SourceGraphic" in2="goo" operator="atop" />
+                </filter>
+            </defs>
+        </svg>
+        <!-- / svg filter -->
+    </div>
+    <!-- #main -->
